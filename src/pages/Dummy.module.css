@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0 10px
+}
+
+.list ul{
+    padding: 0;
+    list-style: none;
+}
+.list li{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.table{
+    border-collapse: collapse;
+}
+.table td{
+border: 1px solid #6e808f;
+padding: 5px;
+}
+
+.chart{
+    max-width: 450px;
+    width: auto;
+    width: 100%;
+}
+

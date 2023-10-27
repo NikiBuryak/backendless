@@ -4,7 +4,6 @@ import { ITab } from "./models/ITab";
 import { axiosApi } from "./serices/api";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout } from "./component/Layout";
-import { Test } from "./pages/Test";
 
 type TDataTabs = ITab[] | [];
 
